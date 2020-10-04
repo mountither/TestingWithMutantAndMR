@@ -10,8 +10,6 @@ namespace CodeAssign2
     {
         static void Main(string[] args)
         {
-            //object to apply MR on a list. 
-            MetamorphicRelations applyMR = new MetamorphicRelations();
 
             /*
             About the test cases:
@@ -48,11 +46,11 @@ namespace CodeAssign2
             //b. describe all the elements of TC
             //List<int> testcase1 = new List<int>(){56, 10, 5, 6, 4, 12, 13, 43, 13, 20};
 
-            
-
             ApplyTests test = new ApplyTests();
+
             Console.WriteLine("\nTESTS TESTCASES PASS THROUGH PROGRAM\n");
             test.ApplyTCandProgram();
+
             Console.WriteLine("\nTESTS MR AND PROGRAM\n");
             test.ApplyFirstMRWithProgram();
             test.ApplySecondMRWithProgram();
@@ -108,12 +106,12 @@ class ApplyTests{
         foreach(List<int> testCase in testCases.GetCases){
 
             List<int> sourceInputM1 = new List<int>(testCase);
-            Console.WriteLine(string.Join(",", sourceInputM1));
+            // Console.WriteLine(string.Join(",", sourceInputM1));
             List<int> followUpInputM1 = new List<int>(testCase);
             
             List<int> sourceOutputM1 = m1ForSI.OrderAscAndRemoveDuplicates(sourceInputM1);
             mr.AddFirstElement(followUpInputM1);
-            Console.WriteLine(string.Join(",", followUpInputM1));
+            // Console.WriteLine(string.Join(",", followUpInputM1));
             List<int> followUpOutputM1 = m1ForFI.OrderAscAndRemoveDuplicates(followUpInputM1);
 
             bool isEqualOutputPandM1 = Enumerable.SequenceEqual(sourceOutputM1,followUpOutputM1);
@@ -133,12 +131,12 @@ class ApplyTests{
         foreach(List<int> testCase in testCases.GetCases){
 
             List<int> sourceInputM2 = new List<int>(testCase);
-            Console.WriteLine(string.Join(",", sourceInputM2));
+            // Console.WriteLine(string.Join(",", sourceInputM2));
             List<int> followUpInputM2 = new List<int>(testCase);
             
             List<int> sourceOutputM2 = m2forSI.OrderAscAndRemoveDuplicates(sourceInputM2);
             mr.AddFirstElement(followUpInputM2);
-            Console.WriteLine(string.Join(",", followUpInputM2));
+            // Console.WriteLine(string.Join(",", followUpInputM2));
             List<int> followUpOutputM2 = m2ForFI.OrderAscAndRemoveDuplicates(followUpInputM2);
 
             bool isEqualOutputPandM2 = Enumerable.SequenceEqual(sourceOutputM2,followUpOutputM2);
@@ -170,12 +168,12 @@ class ApplyTests{
         foreach(List<int> testCase in testCases.GetCases){
             
             List<int> sourceInputM1 = new List<int>(testCase);
-            Console.WriteLine(string.Join(",", sourceInputM1));
+            // Console.WriteLine(string.Join(",", sourceInputM1));
             List<int> followUpInputM1 = new List<int>(testCase);
             //The MTG Pair
             List<int> sourceOutputM1 = m1ForSI.OrderAscAndRemoveDuplicates(sourceInputM1);
             mr.PermutateList(followUpInputM1);
-            Console.WriteLine(string.Join(",", followUpInputM1));
+            // Console.WriteLine(string.Join(",", followUpInputM1));
             List<int> followUpOutputM1 = m1ForFI.OrderAscAndRemoveDuplicates(followUpInputM1);
             
             bool isEqualM1OutputSOandFO = Enumerable.SequenceEqual(sourceOutputM1,followUpOutputM1);
@@ -274,7 +272,6 @@ class ApplyTests{
     }
 
 }
-
 
 //create a class that takes in a source input (SI) list and outputs the follow input (FI) list.
 //this class going to have two methods. First MR and Second MR. 
