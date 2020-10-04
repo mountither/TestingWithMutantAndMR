@@ -1,0 +1,13 @@
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\bin\Debug\netcoreapp3.1\CodeAssign2.exe
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\bin\Debug\netcoreapp3.1\CodeAssign2.deps.json
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\bin\Debug\netcoreapp3.1\CodeAssign2.runtimeconfig.json
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\bin\Debug\netcoreapp3.1\CodeAssign2.runtimeconfig.dev.json
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\bin\Debug\netcoreapp3.1\CodeAssign2.dll
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\bin\Debug\netcoreapp3.1\CodeAssign2.pdb
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\obj\Debug\netcoreapp3.1\CodeAssign2.csprojAssemblyReference.cache
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\obj\Debug\netcoreapp3.1\CodeAssign2.AssemblyInfoInputs.cache
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\obj\Debug\netcoreapp3.1\CodeAssign2.AssemblyInfo.cs
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\obj\Debug\netcoreapp3.1\CodeAssign2.csproj.CoreCompileInputs.cache
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\obj\Debug\netcoreapp3.1\CodeAssign2.dll
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\obj\Debug\netcoreapp3.1\CodeAssign2.pdb
+C:\Users\M_A\Dropbox\STR\assignment2\CodeAssign2\obj\Debug\netcoreapp3.1\CodeAssign2.genruntimeconfig.cache
